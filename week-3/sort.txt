@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?:  It was very slow on random data (6s), but when i ran it on sorted50000.txt, the time dropped to nearly zero (0.018s).
+
+sort2 uses: Merge sort
+
+How do you know?: It was the fastes. It finished all tests in roughly 0.02s - 0.03s.
+
+sort3 uses: Selection Sort
+
+How do you know?:  It was consistently slow (2.5s) regardless of whether the file was random, reversed, or already sorted.
